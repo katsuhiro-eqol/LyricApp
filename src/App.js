@@ -69,7 +69,6 @@ const App = () => {
         setSelectedWords(selectedPhrase);
         showLyric(lyric, randomPhrase);
       }
-      console.log('title count', titles.length);
   }
 
   const showLyric = (lyric, n) => {
